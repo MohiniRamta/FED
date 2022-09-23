@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  programma pagina https://www.dutchcomiccon.com/the-event/programme/  
-  <img src="images/dccprogram.jpeg" width="375px" alt="programma pagina">
+  hier de naam van de pagina  
+  <img src="images/dccprogram.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  homepagina https://www.dutchcomiccon.com/
-  <img src="images/dcchome.jpeg" width="375px" alt="homepagina van de dcc site">
+  hier de naam van de pagina  
+  <img src="images/dcchome.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -59,17 +59,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
- Er waren een paar kleine probleempjes met de screenreader op de website. Als er op Tab werdt geklikt, zou de screenreader sommige content niet voorlezen. Bij sommige afbeeldingen zou de narrator gewoon zeggen 'image' maar niet wat op de image staat. Dus dat moet aangepast worden. Ook had je bij sommige stukjes text dat er stond dat er tekst was, maar het niet zou voorlezen. Zoals deze afbeelding <img src="images/screenreader.png" width="375px" alt="Screenreader error">. Dat moet allemaal worden voorgelezen
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Muis en Toetsenbord 
- Het navigeren met het toetsenbord was makkelijker dan gedacht. Ik kon op bijna alle links klikken. Behalve de header links met participants en info. Die hoef ik alleen toe te voegen. De rest is goed gegaan.
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
- Het motoriek was iets lastiger om te navigeren. Het scrollen was geen optie met de shocks, dus ik kon geen touchpad gebruiken. Maar het ging nogmaals best soepel om alleen het toetsenbord te gebruiken. Misschien kan ik voor mensen die geen toetsenbord kunnen gebruiken, een stem geactiveerde actie toevoegen. Maar dat doe ik alleen als het haalbaar is. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Ik had niet ontzetted veel problemen met het testen van het visuele gedeelte, de kleurencontrasten waren goed te zien. De letters waren voor het grootste gedeelte goed genoeg om te navigeren met blurred vision, maar misschien is het wel handig om een functie toe te voegen dat je de groote van de letters aan kan passen. Ook is er geen bestaand dark thema, dus die moet ik zelf gaan maken. Ook is het misschien handig om bij de footer toch de kleuren contrasten een beetje aan te passen, want wit op geel kan soms lastig te zien zijn. 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 </details>
 
 
