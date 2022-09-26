@@ -58,18 +58,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Screenreader op bepaalde dingen beschijft niet wat het is. Er staat bijvoorbeeld 
- 
-In plaats van tekst. Dus daar moeten betere beschrijvingen bij. 
-
-Er is ook geen dark mode. Dus dat moet ook toegevoegd worden
-Blurred vision en kleurencontrasten werkt wel gewoon goed 
-Misschien bij de footer de wit op geel aanpassen om een iets beter contrast te krijgen
-
-Optie om te scrollen valt af als je beperkingnen hebt zoals parkinson, dus je kan makkelijk navigeren met behulp van de tab knop. Ik kan dat verbeteren door afbeeldingen duidelijker als link aan te geven.
-
-Ik zie met een blurry bril best weinig, dit kan ik oplossen door een functie toe te voegen waarbij de de grootte van de tekst aan kan passen. 
-
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
@@ -103,7 +91,7 @@ Ik zie met een blurry bril best weinig, dit kan ik oplossen door een functie toe
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="img/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -123,27 +111,26 @@ Ik zie met een blurry bril best weinig, dit kan ik oplossen door een functie toe
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Ik ben begonnen aan de css voor mijn website, en de homepage begint steeds meet op de echte site te lijken. Het lasige is wel om alle elementen echt 1 voor 1 uit te werken. Het gaat wel beter dan verwacht, want ik begin zelf steeds meer zelfverzekerder te coderen. 
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-   | Laura      | Idelene         | Mohini  | Shanine     | Shani |
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
-  | ---            | ---                | ---          | ---              | --- |
-
-  | Animatie | Positionering    | Responsiveness en de @media tag            | Wanneer wel classes    |  pseudo elementen  |
-
-  | En hoe het zit met de 2e pagina.  | Alt labels  | Stijlen van forms | Element dat vershuift als je scrolt |
-
-  | ...            | ...                | En het hamburgermenu      | ...              |
 
   ### Verslag van meeting
-  
-  
-  Ik weet nu hoe ik mijn hamburger menu kan maken, maar ik moet zelf nog onderzoek doen over het stijlen van het menu.
-  De forms stijlen was niet behandeld, dus daar moet ik zelf achter komen. 
+  hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 
@@ -157,18 +144,17 @@ Ik zie met een blurry bril best weinig, dit kan ik oplossen door een functie toe
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  Ik heb echt nog wel wat moeite gehad met mijn hamburger menu, ik heb gevolgd wat we in het gesprek hadden behandelt, maar ik krijg een error die ik niet kan oplossen. Ook ben ik op zoek gegaan naar hoe ik een werkende countdown timer in mijn html kan zetten, en dat heb ik gevonden. 
-  Ik wil nog wel hulp bij het stijlen van de forms.
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Mohini     | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Form stijlen  | en dit             | en ik dit    | en dan ik dat    |
-  | Hamburger menu error | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | geen button maar 3 streepjes       | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
