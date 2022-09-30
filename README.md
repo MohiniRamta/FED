@@ -149,19 +149,21 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Mohini        | Deniz      | Donna    | Shanine        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe style ik forms?  | Vraag. Hoe zet ik een background image bij mijn header?          | Mag je een ID gebruiken zodat je maar 1 css pagina hebt?    |Hoe maak ik de cirkel bovenin? |
+  | Waarom werkt mijn AddEventListener niet? | Hoe zet ik content in een bepaalde volgorde? |Hoe doe ik deze transitions? | Hoe zet je een filmpje bij de header? |
+  | Hoe voeg je een countdown timer?  | Hoe zet ik mijn buttons naast elkaar met een img ertussen?  | Mag ik deze ID houden? | .. |
+  |...  | Waarom werkt me font niet? |  Mogen px bij media schermbreedte? | ...|
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Mijn script link stond op de verkeerde plek.
+  - Form is correct gestijld
+  - Countdown is te lastig
 - ...
 
 </details>
