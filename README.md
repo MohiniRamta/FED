@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Mohihi Ramtahalsing
 
   #### Je startniveau:
   blauw
@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Ik ga de website van Dutch Comic Con namaken 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  De programma pagina
   <img src="images/dccprogram.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  De Homepage
   <img src="images/dcchome.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -56,30 +56,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Er is ook geen dark mode. Dus dat moet ook toegevoegd worden
+Blurred vision en kleurencontrasten werkt wel gewoon goed 
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Bij de screenreader waren de meeste problemen. Hij las sommige text niet voor. Je hoorde de screenreader bij de main text allen zeggen "webmateriaal" en verder niks anders. Dus alle tekst moet voorgelezen worden. Ook beschref het niet de afbeeldingen. Het zei alleen maar 'afbeelding'
+  <img src="imgs/screenreader.png" alt="Foto van de error met de screenreader">
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het gebruik met alleen een toetsenbord ging zonder fouten. Misschien kan ik de focus state iets duidelijker maken.
+  Met muis is de site ook goed navigeerbaar. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met de elastiekjes had ik geen probleem. 
+  Met de shocks was het wat lastiger, omdat scrollen met het touchpad gewoon niet te doen was. Het navigeren met tab is daarvoor een betere optie. Die kan ik nog beter maken door het duidelijker maken van de afbeeldingen die links zijn 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik zie met een blurry bril best weinig, dit kan ik oplossen door een functie toe te voegen waarbij de de grootte van de tekst aan kan passen. Of de text iets groter te maken. 
+  Met de kleurencontrasten had ik geen probleem
+  Misschien bij de footer de wit op geel aanpassen om een iets beter contrast te krijgen
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -91,7 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="imgs/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -111,25 +110,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Voor het eerste gesprek was ik veel bezig met het opzetten van mijn html en heb ik een begin gemaakt aan mijn css. Deze week ging veel beter dan ik origineel had verwacht. Ik liep niet tegen veel issues aan (ook omdat ik nog niet zo ontzettend veel had. Maar ik heb mezelf wel verbaasd over hoe goed het ging met coderen. Ik merk wel echt dat ik er steeds beter in word.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Mohini         | Laura              | Idelene      | Shanine          |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hamburgermenu  | Animatie           | Positionering| Wanneer wel classes   |
+  | Stijlen forms  | Hoe zit het met de 2e pagina | ALt labels   | Element dat verschuift als je scrolled|
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Hoe maak je een hamburger menu (1 of 2 buttons)
+  - Posistionering met behulp van een grid
+  - Animatie like button
   - ...
 
 </details>
