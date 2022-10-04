@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Er is ook geen dark mode. Dus dat moet ook toegevoegd worden
+  Er is geen dark mode. Dus dat moet ook toegevoegd worden
 Blurred vision en kleurencontrasten werkt wel gewoon goed 
 
   #### Screenreader
@@ -93,10 +93,9 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   <img src="imgs/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="imgs/dynamischdeel.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+ 
 
 </details>
 
@@ -124,7 +123,6 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Hoe maak je een hamburger menu (1 of 2 buttons)
   - Posistionering met behulp van een grid
@@ -159,7 +157,6 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Mijn script link stond op de verkeerde plek.
   - Form is correct gestijld
@@ -178,30 +175,29 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Mijn Focus op de Form onder aan het scherm werkt niet
+  Tekst kan nog wat groter
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ Alle content en afbeeldingen werden goed door de screenreader gelezen
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ Makkelijk doorheen te scrollen. 
+  Met behulp van de tab kun je makkelijk zien waar je bent door de felle focus kleur. Alleen werkt de focus niet op mijn form.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De site was makkelijk te navigeren met de elastiekjes.
+  De shocks gingen wat lastiger maar door een combinatie van scrollen en tab gebruiken is het toch makkelijk te navigeren
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met alle contrast brillen ik alle content goed zien. 
+  Ik had wel moeite met de vierkante blurry bril, dus daarom kan de tekst wat groter.
+  Met alle kleurenblind testen kwam ik tegen geen problemen aan. 
+  Ik heb nog geen dark mode, die ga ik nog toevoegen
+  
 
 </details>
 
@@ -215,25 +211,25 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het ging eerlijk gezegd minder goed dan afgelopen weken. Ik heb heel veel verschillende dingen geprobeerd die niet echt werkte, dus ik heb een heleboel tijd verspild Ik heb wel voldoende vragen voor het voortgangsgesprek, dus dat is fijn.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Mohini | Laura     | Shanine    | Idelene         |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Menu openklappen|Java animatie      | Hoe maak je een tabel? | Object ovserver api werkt niet|
+  | Schuine randen | ..| ...  | ... |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik werdt snel geholpen met mijn vraag over het hamburger menu
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Hamburger menu opgelost met origin
+  - Javascript gefixt
+  - Schuine randen kwamen we niet aan toe
   - ...
 
 </details>
@@ -274,8 +270,14 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1](https://dlo.mijnhva.nl/d2l/common/dialogs/quickLink/quickLink.d2l?ou=437097&type=coursefile&fileId=FED+22-23+-+Blok+1+-+inh02+-+Werkgroep+1.pdf)
+  2. [bron 2](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
+  3. https://www.w3schools.com/css/css_form.asp
+	4. https://www.w3schools.com/howto/howto_css_button_on_image.asp
+	5.https://www.w3schools.com/howto/howto_js_topnav.asp
+	6. Hulp gekregen van andere studenten (Leo Kramer, Donna Stam en Timo)
+	7. Studentenassistenten
+	8. De codepens van Sanne (in Teams)
+	9. Hulpmiddelen op DLO
 
 </details>
