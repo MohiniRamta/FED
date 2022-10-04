@@ -1,0 +1,199 @@
+
+
+body section:nth-child(2) {
+    background-image: url(../imgs/backgroundhead.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 10em;
+    
+}
+
+body section:nth-child(2) img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body section:nth-child(2) button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--huisstijl-kleur);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--button-color);
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0.1em 0.5em var(--secondary-color);
+
+   
+}
+
+/* body section:nth-child(2) section {
+    position: absolute;
+    width: 110%;
+    height: 11%;
+    bottom: 13%;
+    left:0;
+    background-color: var(--secondary-color);
+    rotate: -7deg;
+    z-index: 80;
+} */
+
+
+body section:nth-child(2) button:hover {
+    background-color: var(--hover-color);
+}
+
+body section:nth-child(2) button:active {
+    background-color: var(--active-knop);
+    box-shadow: 0.3em 0.3em var(--second-button);
+     transform: translateY(4px);
+}
+
+body section:nth-child(4) {
+    background-image: url("../imgs/backgroundnews.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 4em;
+    border: none;
+}
+
+section article h3 a {
+    text-decoration: none;
+    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--kopjes-color);
+    padding: 1em;
+    padding-left: 0;
+    font-size: 1.3em;
+}
+
+article p:nth-of-type(1) {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: 1em 0;
+    color: var(--date-color);
+    font-size: 0.9em;
+
+}
+
+article p:nth-of-type(2) {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+section article a {
+    text-decoration: none;
+    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--huisstijl-kleur);
+    font-weight: 700;
+    margin-top: 3em;
+    font-size: 1.3em;
+
+}
+
+section article a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: var(--secondary-color);
+    margin: 4em;
+
+}
+
+/* #schuinerand {
+    position: absolute;
+    width: 110%;
+    height: 11%;
+    bottom: -278%;
+    left:0;
+    background-color: var(--secondary-color);
+    rotate: -7deg;
+    z-index: 80;
+}
+
+#schuinerand2 {
+    position: absolute;
+    width: 110%;
+    height: 11%;
+    bottom: -344%;
+    left: -2%;
+    background-color: var(--secondary-color);
+    rotate:  7deg;
+    z-index: 80;
+}
+*/
+
+ 
+
+body section:nth-child(4) h1 {
+    font-size: 2.5em;
+    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: var(--heading-color);
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+body section:nth-child(4) img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+
+}
+
+body section:nth-child(4) button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    background-color: var(--huisstijl-kleur);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:var(--button-color);
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.3em;
+    z-index: 100;
+}
+
+body section:nth-child(4) button:hover {
+    background-color: var(--hover-color);
+}
+
+
+body section:nth-child(5 ) img {
+    width: 100%;
+    height: 30em;
+    margin: 8em 0;
+    border: 0.4em solid var(--huisstijl-kleur);
+    object-fit: cover;
+}
+
+
+/*
+#schuinerand3 {
+    position: absolute;
+    width: 110%;
+    height: 15%;
+    bottom: -695%;
+    left: -2%;
+    background-color: var(--secondary-color);
+    rotate:  -7deg;
+    z-index: 19;
+} */

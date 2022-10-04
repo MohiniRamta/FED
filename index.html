@@ -8,21 +8,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/homestyle.css">
+   
     <title>Heroes DutchComicCon</title>
 </head>
 <body>
     <header>
-        <img src="imgs/logotop.png" alt="Logo Dutch Comic Con">
+        <section>
+        <button>☰</button>
+            <ul>
+                <li><a href="">EN</a></li>
+                <li><a href="">NL</a></li>
+            </ul>
+        </section>
+        <a href="../index.html"><img src="imgs/logotop.png" alt="Logo Dutch Comic Con"></a>
         
 
    
          <nav>
-            <button>Menu</button>
+            <button>☰</button>
          <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Guests</a></li>
-            <li><a href="">Program</a></li>
+            <li><a href="../program.html">Program</a></li>
             <li><a href="">Het event</a></li>
             <li><a href="">Participants</a></li>
             <li><a href="">Info</a></li>
@@ -31,21 +39,26 @@
         
         </nav>
         <button type="button"> Tickets</button>
+        <section>
+            .
+        </section>  
      </header>
-    <section id="titel">
-        
+    <section>
         <img src="imgs/logomid.png" alt="Logo Dutch Comic Con">
         <button type="button"> Tickets</button> 
+
+
     </section>
+
     <p>
         Don't miss it! On <b>November 19 and 20, 2022</b> the Jaarbeurs Utrecht will once again be completely dedicated to films, series, cosplay, comics, games and entertainment. 45.000 visitors can share their passion during the biggest Comic Con of The Netherlands. <br>
 
-    	Always wanted to meet world famous actors and comic artists or are you a fan of series, movies, esports or cosplay? Whether you're that board game fanatic or prefer to shop for geeky merchandise… Heroes Dutch Comic Con has it all, and more! <br>
+        Always wanted to meet world famous actors and comic artists or are you a fan of series, movies, esports or cosplay? Whether you're that board game fanatic or prefer to shop for geeky merchandise… Heroes Dutch Comic Con has it all, and more! <br>
 
         Be prepared for a great weekend full of entertainment and memorable moments. Share your passions with others or make new friends!!
     </p>
 
-    <section id="nieuws">
+    <section>
         <h1>Stay up to date about heroes dutch comic con</h1>
         <article>
             <img src="imgs/nieuws1.png" alt="Picture of comics">
@@ -75,30 +88,33 @@
         </article>  
         <button type="button"> More news</button> 
     </section>
-
-    <section class="afbeeldingknoppen">
-        <h1>Enjoy this amazing weekend!</h1>
-            <img src="imgs/guestsarticle.png" alt="Link naar de guests pagina">
-            <img src="imgs/gamingarticle.png" alt="Link naar de gaming pagina">
-            <img src="imgs/cosplayarticle.png" alt="Link naar de cosplay pagina">
-            <img src="imgs/comicsarticle.png" alt="Link naar de comics pagina">
-            <img src="imgs/activityarticle.png" alt="Link naar de activities pagina">
+    <section>
+        <img src="imgs/carouselfoto.jpg">
     </section>
+    <section class="afbeeldingknoppen">
+        
+        <h1>Enjoy this amazing weekend!</h1>
+            <a href=""> <img src="imgs/guestsarticle.png" alt="Link naar de guests pagina"></a>
+            <a href=""></a><img src="imgs/gamingarticle.png" alt="Link naar de gaming pagina"></a>
+            <a href=""></a><img src="imgs/cosplayarticle.png" alt="Link naar de cosplay pagina"></a>
+            <a href=""></a><img src="imgs/comicsarticle.png" alt="Link naar de comics pagina"></a>
+            <a href=""></a><img src="imgs/activityarticle.png" alt="Link naar de activities pagina"></a>
 
+    </section>
     <footer>
         <h1>Gimme your genius ideas</h1>
         <h5>Please share your thoughts with us. We're open for suggestions to improve Heroes Dutch Comic Con.</h5>
         <form>
             <label for="fname">First and last name</label><br>
             <input type="text" id="fname" name="fname"><br>
-            <label for="">Language</label>
+            <label for="language">Language</label><br>
                 <select name="language">
                     <option value="English">English</option>
                     <option value="Dutch">Dutch</option>
-                </select>
-            <label for="">Email </label><br>
-            <input type="text" id="" name="">
-            <label for="">My idea is about</label>
+                </select> <br>
+            <label for="email">Email </label><br>
+            <input type="text"><br>
+            <label for="text">My idea is about</label><br>
                 <select name="language">
                     <option value="English">Special guests</option>
                     <option value="Cosplay">Cosplay</option>
@@ -106,15 +122,15 @@
                     <option value="Gaming">Gaming</option>
                     <option value="Merchandise">Merchandise</option>
                     <option value="Other">Other</option>
-                </select>
+                </select><br>
                 <label for="fname">Your genius idea</label><br>
-                <input type="text" id="" name=""><br>
+                <input type="text"><br>
         </form>
 
 
-        <button type="button"> Send</button> 
+        <button type="button">📨 Send</button> 
 
     </footer>
-    
+    <script src="scripts/script.js" defer></script>
 </body>
 </html>

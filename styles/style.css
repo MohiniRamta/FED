@@ -1,17 +1,100 @@
+:root {  
+     --huisstijl-kleur: #FFB700; 
+     --zwarte-headings: black;
+     --secondary-color: white;
+     --hover-color: #a97a03; 
+     --focus-color: aqua;
+     --text-color: black;
+     --kopjes-color: black;
+     --heading-color: white;
+     --button-color: white;
+     --date-color: gray;
+     --second-button: rgb(99, 99, 99);
+     --afbeelding-knop: #C4C4C4;
+     --active-knop: #3e8e41;
+} 
+
+@media (prefers-color-scheme:dark) {   
+    :root {     
+        --huisstijl-kleur: #A12A6F; 
+        --zwarte-headings: #00002F;
+        --secondary-color: #333333;
+        --hover-color: #94158B; 
+        --focus-color: #1934FF;
+        --text-color: white;
+        --kopjes-color: white;
+        --date-color: lightgray;
+        --heading-color: white;
+        --afbeelding-knop: rgb(99, 99, 99);
+        --active-knop: #3e8e41;
+    } 
+} 
+
+/* 
+var(--huisstijl-kleur)
+var(--zwarte-headings)
+var(--secondary-color)
+var(--hover-color)
+var(--focus-color)
+var(--text-color)
+var(--kopjes-color)
+
+*/
+
+*, *::after, *::before {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    }
+
+
 body{
     margin: 0;
+    background-color: var(--secondary-color) ;
 }
 
-
-body p {
+ body p:nth-of-type(1) {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    color: var(--text-color);
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+    position: relative;
+    z-index: 90;
+} 
+
+header ul a:nth-of-type(1) {
+    text-decoration: none;
+    list-style: none;
+    color: var(--button-color);
+    padding: 0.4em;
+    line-height: 2;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+header ul:nth-of-type(1) {
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--zwarte-headings);
+    transform: scaleY(0);
+    transition: 0.3s;
+    height: 0;
+    transform-origin: top;
+    
+}
+
+header ul:nth-of-type(1).open {
+    transform:scaleY(1);
+    height: 100%;
+}
+
 
 header {
-    background-color: black;
+    background-color: var(--zwarte-headings);
+    transition: 0.3s;
 }
 
 header img {
@@ -20,48 +103,94 @@ header img {
     margin-right: auto;
 }
 
+header button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--huisstijl-kleur);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.3em;
+    color: var(--button-color);
+}
+
+header nav button {
+    background-color: var(--zwarte-headings);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--button-color);
+    font-size: 1.5em;
+    border: none;
+}
+
+header section  {
+    background-color: var(--huisstijl-kleur);
+    padding: 1em;
+    border: none;
+}
+
 nav {
-    background-color: black;
+    background-color: var(--zwarte-headings);
     display: block;
+    
 
 }
 
-nav ul {
-    transform: translateX(-100%);
+button:focus {
+    border: 0.3em solid var(--focus-color);   
+}
+
+button:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+a:focus {
+    border: 0.3em solid var(--focus-color);
+}
+
+a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
-    padding: 0.3em;
+    color: var(--button-color);
+    padding: 0.4em;
     line-height: 2;
     text-transform: uppercase;
-  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
 
 }
 
-nav.open {
-	transform:translateX(0%);
+nav ul a:hover {
+    color: var(--hover-color);
+    transform: scale(0.1);
+    transition: 0.3s;
 }
 
-nav a:hover {
-    text-decoration: none;
-    color: #FFB700;
-
+nav ul.open {
+	transform:scaleY(1);
+    
 }
 
-
-#titel {
-    background-image: url(../imgs/backgroundhead.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+nav button.open {
+    content: "X";
 }
 
-#titel img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10em;
+nav ul {
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+    list-style: none;
+    padding-left: 1em;
+
 }
 
 
@@ -69,6 +198,9 @@ nav a:hover {
     background-image: url("../imgs/backgroundimagesection.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    position: relative;
+    z-index: 20;
+   
 }
 
 .afbeeldingknoppen h1{
@@ -76,68 +208,30 @@ nav a:hover {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     text-align: center;
-    color: white;
+    color: var(--heading-color);
     padding: 1em;
+    padding-top: 4em;
 }
+
 
 .afbeeldingknoppen img {
     display: block;
-    width: 50%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
 
 }
 
-#nieuws {
-    background-image: url("../imgs/backgroundnews.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+.afbeeldingknoppen img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-section article h3 a {
-    text-decoration: none;
-    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-    padding: 1em;
-}
-
-section article a {
-    text-decoration: none;
-    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #FFB700;
-    font-weight: 700;
-
-}
-
-article {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    background-color: white;
-    margin: 4em;
-
-}
- 
-
-#nieuws h1 {
-    font-size: 2.5em;
-    font-family:ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-    padding: 1em;
-    text-transform: uppercase;
-}
-
-#nieuws img {
-    height: auto;
-    width: 100%;
-
-}
 
 footer {
-    background-color: #FFB700;
+    background-color:var(--huisstijl-kleur);
 }
 
 footer h1 {
@@ -145,29 +239,89 @@ footer h1 {
     font-size: 2.5em;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 2em;
+    padding-top: 4em;
     padding-bottom: 0;
     margin-bottom: 0%;
+    
 }
 
 footer h5 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1em;
-    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: var(--secondary-color);
     text-align: center;
     margin-left: 4em;
     margin-right: 2em;
+    padding: 3em;
+    padding-top: 0.5em;
+    color: var(--heading-color);
 }
 
-footer form {
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+input[type=text]:focus {
+    border: 0.3em solid var(--focus-color);                       
+}
+
+select:focus {
+    border: 0.3em solid var(--focus-color);                       
+}
+
+input[type=text]:hover {
+    transform: scale(1.05);
+    transition: 0.3s;                   
+}
+
+select:hover {
+    transform: scale(1.05);
+    transition: 0.3s;                       
+}
+
+footer button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--zwarte-headings);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:var(--button-color);
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 2em;
+}
+
+/* https://www.w3schools.com/css/css_form.asp */
+
+
+input[type=text] {
+    width: calc(100% - 1em);
     font-size: 1em;
-    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
 
-}
+select {
+    width: calc(100% - 1em);
+    font-size: 1em;
+    padding: 1em 1.3em;
+    border: none;
+    margin: 10px 0;
+  }
 
-footer input {
-    width: 90%;
-    margin: 2em;
-    padding-right:1em;
-}
+
+
+
