@@ -244,17 +244,18 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  Mijn uitkomst is naar mijn mening best goed. Ik heb alle elementen die ik wilde werkende gemaakt 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+ Ik heb heel veel geleerd van positioneren en background images. Ik vond het erg leuk om alle hovers toe te voegen,  want het maakte de site iets mooier. Ik heb ook  geen classes gebruikt, iets waaraan ik niet eens kon denken tijdens internet standaarden en inleiding programmeren. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het was erg lastig om de iconen van de afbeeldingsknoppen te krijgen. Het enige dat niet gelukt is in de site is een hover daar op. Hij werkt wel, alleen je ziet soms de afbeelding erdoorheen. Wat er soms niet heel mooi uitziet. Bij het vorige gesprek lukte het niet om de schuine randen toe te voegen en ook niet om de iconen over de afbeeldingsknoppen te zetten. Maar dat heb ik nu wel opgelost. (Met wat hulp van Sanne)
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
