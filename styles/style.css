@@ -14,7 +14,7 @@
      --active-knop: #3e8e41;
 } 
 
-@media (prefers-color-scheme:dark) {   
+/* @media (prefers-color-scheme:dark) {   
     :root {     
         --huisstijl-kleur: #A12A6F; 
         --zwarte-headings: #00002F;
@@ -28,7 +28,7 @@
         --afbeelding-knop: rgb(99, 99, 99);
         --active-knop: #3e8e41;
     } 
-} 
+}  */
 
 /* 
 var(--huisstijl-kleur)
@@ -57,7 +57,7 @@ body{
 
  body p:nth-of-type(1) {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.8em;
     color: var(--text-color);
     text-align: center;
     padding: 2em;
@@ -115,7 +115,7 @@ header button {
     padding-left: 2em;
     padding-right: 2em;
     border-radius: 0.3em;
-    color: var(--button-color);
+    color: var(--text-color);
 }
 
 header nav button {
@@ -135,9 +135,15 @@ header section  {
 nav {
     background-color: var(--zwarte-headings);
     display: block;
-    
+    width: 100%;
 
 }
+
+nav ul > li{
+    width: 100%;
+    border-top: 1px solid white;
+}
+
 
 button:focus {
     border: 0.3em solid var(--focus-color);   
@@ -203,6 +209,28 @@ nav ul {
    
 }
 
+.afbeeldingknoppen img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+
+}
+
+.afbeeldingknoppen::after {
+    content:"howdy";
+    position:absolute;
+    bottom: 0px;
+    display:block;
+    clip-path: polygon(100% 0, 0 0, 100% 30%);
+    background-color:white;
+    width:100%;
+    height:30em;
+    margin-bottom: 230.5em;
+
+}
+
 .afbeeldingknoppen h1{
     font-size: 3em;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -214,24 +242,101 @@ nav ul {
 }
 
 
-.afbeeldingknoppen img {
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
 
+
+.afbeeldingknoppen ul {
+    margin:0;
+	padding:0;
+	list-style:none;
+	
 }
 
-.afbeeldingknoppen img:hover {
+.afbeeldingknoppen ul li {
+	position:relative;
+	margin-top:calc(7.5vw + 2em);
+	
+}
+
+.afbeeldingknoppen ul li > img:first-of-type{
+	position:absolute;
+	top: 0.5em;
+	left: calc(46.5% - 7.5vw);
+	
+	width: 21vw;
+	border-radius:50%;
+}
+
+.afbeeldingknoppen ul li > img:nth-of-type(2) {
+	width:100%;
+	display:block; 
+}
+
+.afbeeldingknoppen li:hover {
     transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;
 }
 
+.afbeeldingknoppen h3 {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.afbeeldingknoppen li h3{
+        position:absolute;
+        bottom: 0.3em;
+    	left:27%;
+        margin:0;
+        padding: .25em 1em;
+        color: var(--button-color);
+        transform:rotate(-3deg);
+        font-size: 1.5em;
+        font-size:clamp(1em, 5vw, 3em); 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 0.1em solid white;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+}
+
+.afbeeldingknoppen li:nth-of-type(1) h3{
+    background-color:#563493;
+}
+
+.afbeeldingknoppen li:nth-of-type(2) h3 {
+    background-color:#3b8bc5;
+}
+
+.afbeeldingknoppen li:nth-of-type(3) h3 {
+    background-color:#c9307b;
+}
+
+.afbeeldingknoppen li:nth-of-type(4) h3 {
+    background-color:#ee3123;
+}
+
+.afbeeldingknoppen li:nth-of-type(5) h3 {
+    background-color:#00783e;
+}
+
+
 
 footer {
     background-color:var(--huisstijl-kleur);
+    position: relative;
+}
+
+footer::after {
+        content:"";
+        position:absolute;
+        bottom: 0px;
+        display:block;
+        clip-path: polygon(100% 0, 0 0, 0 30%);
+        background-color:white;
+        width:100%;
+        height:25em;
+        margin-bottom: 44.6em;
+
 }
 
 footer h1 {
@@ -247,7 +352,7 @@ footer h1 {
 
 footer h5 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: 500;
     color: var(--secondary-color);
     text-align: center;
@@ -255,7 +360,7 @@ footer h5 {
     margin-right: 2em;
     padding: 3em;
     padding-top: 0.5em;
-    color: var(--heading-color);
+    color: var(--text-color);
 }
 
 form {
@@ -264,7 +369,7 @@ form {
     padding: 0 2em ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2em;
-    color: var(--secondary-color);
+    color: var(--text-color);
     width: 100%;
     text-transform: uppercase;
     font-weight: 800;
@@ -295,7 +400,7 @@ footer button {
     background-color: var(--zwarte-headings);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:var(--button-color);
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 500;
     padding: 0.3em;
     padding-left: 2em;
@@ -322,6 +427,10 @@ select {
     margin: 10px 0;
   }
 
-
+input + label, 
+select + label  {
+    display: block;
+    margin-top: 1.5em;
+}
 
 
