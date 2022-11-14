@@ -244,19 +244,23 @@ Blurred vision en kleurencontrasten werkt wel gewoon goed
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+Ik ben stieken wel trots op mijn eindresultaat. Ik ben niet zo goed in coderen, maar door dit vak vind oik het toch een beetje leuker. Ik heb in mijn site de homepage zo goed mogelijk nagemaakt. Ik heb alleen de countdown timer, de fotocarousel en de onderste footer niet gedaan. De rest heb ik helemaal nagemaakt en verbetert. Dit zijn wat screenshots van mijn site. 
+  <img src="imgs/screenshot1.png" width="375px" alt="uitomst opdracht 1">
+<img src="imgs/screenshot2.png" width="375px" alt="uitomst opdracht 1">
+<img src="imgs/screenshot3.png" width="375px" alt="uitomst opdracht 1">
+<img src="imgs/screenshot4.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb veel meer geleerd over positioneren, animatie en achtergrond images tijdens dit vak. Het animeren vond ik zelf het leukste om te doen. Want ik had het gevoel dat het mijn site veel speelser maakte. Ik ben erg trots op hoe goed ik mijn artikelen heb nagemaakt. Ze lijken echt op de artikelen op de site, alleen op mijn site is het lettertype groter. Dus het is toegankelijker voor meer mensen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="imgs/screenshot2.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+Voor mij was een heleboel heel lastig. Ik had heel erg veel moeite met de afbeeldingsknoppen en de schuine randen. Met wat goede hulp van Sanne heb ik ze allebei zo goed mogelijk kunnen oplossen. Het enige dat niet gelukt is, is een probleem met de hover. Als ik over mijn afbeeldingsknop hover, zie je soms de afbeelding zelf naar boven komen. Wat ik persoonlijk niet heel netjes vind. Alleen ik wist echt niet hoe ik dat moest oplossen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="imgs/screenshot6.png" width="375px" alt="uitomst opdracht 1">
 </details>
 
 
